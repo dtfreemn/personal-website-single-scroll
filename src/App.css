@@ -97,6 +97,7 @@
   grid-template-columns: repeat(2, 1fr);
   /*background-image: url("./images/nyc-background.jpg");*/
   background: rgb(239, 241, 242);
+  /*background: url('./images/headshot.JPG');*/
 }
 
 #intro img#headshot {
@@ -390,6 +391,7 @@ span.flatiron-logo {
   height: 25px;
   width: 25px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 /* CONTACT */
