@@ -18,6 +18,13 @@ class App extends Component {
           </h2>
         </div>
         <MyStory />
+        <div id='projects-header'>
+          <h2 className='section-header'>
+            <span><img className='divider' src={require('./images/culicueDivider.png')} alt="divider"/></span>
+            Projects
+            <span><img className='divider' src={require('./images/culicueDivider.png')} alt="divider"/></span>
+          </h2>
+        </div>
       </div>
     );
   }

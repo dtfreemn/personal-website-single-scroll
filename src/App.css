@@ -59,6 +59,15 @@
   opacity: 0.3;
 }
 
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ".";
+  clear: both;
+  height: 0;
+}*/
+
 /*NAV BAR*/
 
 #nav-bar {
@@ -223,7 +232,7 @@ span.flatiron-logo {
 
 /*              MY STORY              */
 #my-story {
-  height: 83vh;
+  min-height: 83vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -261,7 +270,7 @@ span.flatiron-logo {
   padding-left: 2%;
   padding-right: 2%;
   font-family: 'Concert One', cursive;
-  font-size: 2em;
+  font-size: 2.5em;
   grid-column: 1;
   grid-row: 1;
   position: absolute;
@@ -288,7 +297,7 @@ span.flatiron-logo {
   padding-left: 2%;
   padding-right: 2%;
   font-family: 'Cabin Sketch', cursive;
-  font-size: 2em;
+  font-size: 2.5em;
   bottom: 18%;
   position: absolute;
 }
@@ -309,7 +318,7 @@ span.flatiron-logo {
 #nyc-time p {
   position: absolute;
   font-family: 'Jura', sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
   bottom: 20%;
 }
 
@@ -327,7 +336,7 @@ span.flatiron-logo {
 #flatiron-time p {
   position: absolute;
   bottom: 20%;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Quantico', sans-serif;
   padding-left: 2%;
   padding-right: 2%;
