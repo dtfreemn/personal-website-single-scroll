@@ -6,7 +6,7 @@ const ProjectItem = (props) => {
       <img id='project-image' src={props.project.image} alt="project"/>
       <p id='proj-title'>{props.project.title}</p>
       <p id='proj-desc'>{props.project.description}</p>
-      <p id='proj-url'><a href={props.project.url}>See on Github</a></p>
+      <p id='proj-url'><a href={props.project.url} target="_blank" rel="noopener noreferrer">See on Github</a></p>
     </div>
   )
 }
