@@ -420,13 +420,13 @@ span.flatiron-logo {
   width: 150px;
 }
 
-.bottom-border {
-  /*border-bottom: 1px solid white;*/
-}
+/*.bottom-border {
+  border-bottom: 1px solid black;
+}*/
 
-#github-img {
+/*#github-img {
   border: 1px solid white;
-}
+}*/
 
 #contact-links-container a img {
   height: 150px;
