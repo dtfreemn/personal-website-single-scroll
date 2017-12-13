@@ -12,7 +12,7 @@ const MyStory = (props) => {
       <div id='chicago-madrid'>
         <img id='chicago' src={require('../images/chicago.jpg')} alt=""/>
         <img id='madrid' src={require('../images/madrid.jpg')} alt=""/>
-        <p>Then, I taught high school for two years in Chicago and elementary school for one year in Madrid.</p>
+        <p>Then, I taught high school for two years in Chicago, got a masters in Teaching, and taught elementary school for one year in Madrid.</p>
       </div>
       <div id='nyc-time'>
         <img id='nyc' src={require('../images/nyc.png')} alt=""/>
