@@ -10,7 +10,13 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Intro />
-        <h2 id='my-story-header' className='section-header'>My Story</h2>
+        <div id='my-story-header'>
+          <h2 className='section-header'>
+            <span><img className='divider' src={require('./images/culicueDivider.png')} alt="divider"/></span>
+            Who I Am
+            <span><img className='divider' src={require('./images/culicueDivider.png')} alt="divider"/></span>
+          </h2>
+        </div>
         <MyStory />
       </div>
     );

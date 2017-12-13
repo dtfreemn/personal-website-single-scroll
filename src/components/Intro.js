@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = (props) => {
 
   return (
-    <div id="intro">
+    <div id="intro" className="container">
       <img id="headshot" src={require("../images/headshot.JPG")} alt="headshot"/>
       <ul id='intro-blurb'>
         <li id='name'>Tim Freeman</li>
