@@ -17,7 +17,7 @@ const ContactLinksContainer = (props) => {
           <img src={require('../images/facebook.png')} alt='facebook'/>
       </a>
       <a id='github' href='https://github.com/dtfreemn' target='_blank' rel="noopener noreferrer">
-          <img style={{'borderRadius': '10px'}}src={require('../images/github.png')} alt='github'/>
+          <img id='github-img' style={{'borderRadius': '10px'}}src={require('../images/github.png')} alt='github'/>
       </a>
       <div id='phone'>646.<br/>438.<br/>2736</div>
     

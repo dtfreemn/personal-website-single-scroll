@@ -5,19 +5,22 @@ let projects = [{
     title: "eVALUEate",
     description: "A simple to use employee evaluation management system through which companies can create, execute, and track the data of their internal employee reviews",
     image: require("../images/evaluate.png"),
-    url: 'https://github.com/dtfreemn/evaluator-react-redux'
+    url: 'https://github.com/dtfreemn/evaluator-react-redux',
+    className: ''
   },
   {
     title: "Moodboards",
     description: "A project management tool for creatives. Create projects, add idea boards, add images, and collaborate with teammates via comments.",
     image: require('../images/moodboards.png'),
-    url: 'https://moodboards-inc.herokuapp.com/'
+    url: 'https://moodboards-inc.herokuapp.com/',
+    className: 'white'
   },
   {
     title: "TripTracker",
     description: 'A trip planning tool that utilizes the free version of the Yelp API. Select a Yelp city, set a budget, and start adding things to do to your trip!',
     image: require('../images/trip-tracker.png'),
-    url: 'https://github.com/dtfreemn/module-4-project-react'
+    url: 'https://github.com/dtfreemn/module-4-project-react',
+    className: ''
   }]
 
 
