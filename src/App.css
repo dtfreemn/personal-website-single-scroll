@@ -447,6 +447,6 @@ span.flatiron-logo {
 
 #sign-off {
   padding: 1%;
-  background: black;
-  color: white;
+  border-top: 1px solid rgb(239, 241, 242);
+  color: rgb(201, 197, 197);
 }
