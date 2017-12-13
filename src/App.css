@@ -444,3 +444,9 @@ span.flatiron-logo {
 #contact-links-container a:hover {
   filter: blur(2px) brightness(60%);
 }
+
+#sign-off {
+  padding: 1%;
+  background: black;
+  color: white;
+}
