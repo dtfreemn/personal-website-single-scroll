@@ -36,6 +36,7 @@
   padding-left: 5%;
   padding-right: 5%;
   margin-bottom: 10px;
+  min-height: 83vh;
 }
 
 .section-header {
@@ -48,8 +49,8 @@
   font-family: 'Sacramento', cursive;
   /*background: rgb(201, 197, 197);*/
   color: rgb(201, 197, 197);
-  border-top: 2px dashed rgb(201, 197, 197);
-  border-bottom: 2px dashed rgb(201, 197, 197);
+  /*border-top: 2px dashed rgb(201, 197, 197);
+  border-bottom: 2px dashed rgb(201, 197, 197);*/
 }
 
 .divider {
@@ -58,15 +59,6 @@
   margin-right: 100px;
   opacity: 0.3;
 }
-
-/*.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: ".";
-  clear: both;
-  height: 0;
-}*/
 
 /*NAV BAR*/
 
@@ -79,7 +71,7 @@
   height: 60px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr)
+  grid-template-columns: repeat(5, 1fr)
 }
 
 #nav-bar a {
@@ -226,13 +218,12 @@ span.flatiron-logo {
   opacity: 0.5;
 }
 
-#scroll-hand:mouseover {
-  transform: scale(1.5);
+/*              MY STORY              */
+#my-story-header {
+  /*background: rgb(245, 255, 142);*/
 }
 
-/*              MY STORY              */
 #my-story {
-  min-height: 83vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -342,3 +333,101 @@ span.flatiron-logo {
   padding-right: 2%;
 }
 
+/*              PROJECTS              */
+#projects-header {
+  /*background: rgb(224, 255, 254);*/
+}
+
+#projects {
+  /*background: rgb(224, 255, 254);*/
+}
+
+#single-project {
+  position: relative;
+  text-align: center;
+}
+
+#single-project img {
+  width: 60%;
+  height: 50%;
+  margin-top: 5%;
+  padding: 3px;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+#single-project p#proj-title {
+  position: absolute;
+  bottom: 50%;
+  padding-left: 40%;
+  padding-right: 40%;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+}
+
+#single-project p#proj-desc {
+  position: absolute;
+  bottom: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 2em;
+  font-family: 'Jura', sans-serif;
+}
+
+#single-project p#proj-url {
+  position: absolute;
+  bottom: 15%;
+  padding-left: 46%;
+  font-size: 1em;
+}
+
+.next-button {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+/* CONTACT */
+#contact {
+  min-height: 83vh;
+}
+
+#contact-links-container {
+  grid-column: 1/5;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#contact-links-container a {
+  padding: 5%;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 12%;*/
+}
+
+.bottom-border {
+  border-bottom: 1px solid black;
+}
+
+#contact-links-container a img {
+  height: 150px;
+  width: 150px;
+}
+
+#phone {
+  font-size: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1%;
+}
+
+#contact-links-container a:hover {
+  filter: blur(2px) brightness(60%);
+}
