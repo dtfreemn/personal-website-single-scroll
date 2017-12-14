@@ -8,7 +8,7 @@ class NavBar extends React.Component {
   handleScroll = (e) => {
     switch (e.target.id) {
       case 'about-link':
-        scroller.scrollTo('my-story', {duration: 1500, smooth: true, offset: -150});
+        scroller.scrollTo('my-story', {duration: 1500, smooth: true, offset: -150, isDynamic: true});
         break;
       case 'project-link':
         scroller.scrollTo('projects', {duration: 2000, smooth: true, offset: -180});
