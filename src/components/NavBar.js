@@ -25,7 +25,7 @@ class NavBar extends React.Component {
         <div id='about-link'>About Me</div>
         <div id='project-link'>Some Projects</div>
         <div></div>
-        <a href="https://docs.google.com/document/d/1cQs01ul_uAYG2zCaAkSyJfFAWQCSQsavPFGwanRUfIE/edit?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>
+        <a href="https://docs.google.com/document/d/1cQs01ul_uAYG2zCaAkSyJfFAWQCSQsavPFGwanRUfIE/preview" target='_blank' rel="noopener noreferrer">Resume</a>
         <div id='contact-link'>Contact</div>
       </div>
     )

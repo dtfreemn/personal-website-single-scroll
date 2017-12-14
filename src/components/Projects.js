@@ -52,8 +52,8 @@ class Projects extends React.Component {
     return (
       <div id='projects' className='container' onClick={this.handleNextClick}>
         <ProjectItem project={this.state.projects[this.state.currentProject]} />
-      <img className='next-button' id='next-button' src={require('../images/back-arrow.png')} alt='back-button'/>
-      <img className='next-button' id='back-button' src={require('../images/next-arrow.png')} alt='next-button'/>
+        <img className='next-button' id='next-button' src={require('../images/back-arrow.png')} alt='back-button'/>
+        <img className='next-button' id='back-button' src={require('../images/next-arrow.png')} alt='next-button'/>
       </div>
     )
   }
