@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: 'Cabin', sans-serif;
+  width: 100%;
+  max-width: 100%;
 }
 
 .App-logo {
@@ -37,6 +39,7 @@
   padding-right: 5%;
   margin-bottom: 10px;
   min-height: 83vh;
+  min-width: 90%;
 }
 
 .section-header {
@@ -45,16 +48,18 @@
   padding-top: 10px;
   padding-bottom: 0px;
   color: grey;
-  font-size: 2.5em;
+  font-size: 2.8vw;
   font-family: 'Sacramento', cursive;
   color: rgb(201, 197, 197);
-  min-width: 1000px;
+  /*min-width: 1000px;*/
+  max-width: 100%;
 }
 
 .divider {
-  height: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  max-height: 4vw;
+  max-width: 12vw;
+  margin-left: 10%;
+  margin-right: 10%;
   opacity: 0.3;
 }
 
@@ -97,10 +102,12 @@
 #intro img#headshot {
   height: 400px;
   width: 400px;
+  max-width: 30vw;
+  max-height: 30vw;
 }
 
 #intro ul {
-  font-size: 2.3em;
+  font-size: 2.7vw;
   list-style: none;
   font-family: 'Bungee', cursive;
   list-style-position: inside;
@@ -122,6 +129,8 @@
 #intro ul li a img {
   height: 75px;
   width: 225px;
+  max-width: 18vw;
+  max-height: 18vw;
 }
 
 #intro ul li img.left {
@@ -152,6 +161,7 @@
   grid-gap: 10px;
   border-top: 1px solid rgb(239, 241, 242);
   padding-top: 2%;
+  min-width: 100%;
 }
 
 #tools-links-container img {
@@ -160,6 +170,9 @@
   margin-left: auto;
   margin-right: auto;
   opacity: 0.8;
+  min-height: 50%;
+  min-width: 50%;
+  max-width: 10vw;
 }
 
 .home-link-img {
@@ -218,8 +231,15 @@ span.flatiron-logo {
   align-items: center;
 }
 
+#my-story div {
+  max-width: 100%;
+}
+
+
 #my-story div img {
     opacity: 0.3;
+    max-width: 100%;
+    max-width: 90%
 }
 
 #growing-up {
@@ -235,13 +255,12 @@ span.flatiron-logo {
   width: 620px;
 }
 
-
 #growing-up p {
   padding-top: 0;
   padding-left: 2%;
   padding-right: 2%;
   font-family: 'Concert One', cursive;
-  font-size: 2.5em;
+  font-size: 3vw;
   grid-column: 1;
   grid-row: 1;
   position: absolute;
@@ -268,7 +287,7 @@ span.flatiron-logo {
   padding-left: 2%;
   padding-right: 2%;
   font-family: 'Cabin Sketch', cursive;
-  font-size: 2.5em;
+  font-size: 3vw;
   bottom: 18%;
   position: absolute;
 }
@@ -288,7 +307,7 @@ span.flatiron-logo {
 #nyc-time p {
   position: absolute;
   font-family: 'Jura', sans-serif;
-  font-size: 2.5em;
+  font-size: 3vw;
   bottom: 20%;
 }
 
@@ -306,7 +325,7 @@ span.flatiron-logo {
 #flatiron-time p {
   position: absolute;
   bottom: 20%;
-  font-size: 2.5em;
+  font-size: 3vw;
   font-family: 'Quantico', sans-serif;
   padding-left: 2%;
   padding-right: 2%;
@@ -319,6 +338,7 @@ span.flatiron-logo {
 
 #projects {
   background: url('./images/nyc-background.jpg');
+  max-width: 100%;
 }
 
 .white {
@@ -395,16 +415,20 @@ span.flatiron-logo {
   padding: 5%;
   height: 150px;
   width: 150px;
+  max-width: 15vw;
+  max-height: 15vw;
 }
 
 #contact-links-container a img {
   height: 150px;
   width: 150px;
   margin-left: 60%;
+  max-width: 15vw;
+  max-height: 15vw;
 }
 
 #phone {
-  font-size: 3em;
+  font-size: 3.5vw;
   margin-right: auto;
   margin-left: auto;
   padding-top: 1%;
