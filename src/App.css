@@ -376,6 +376,7 @@ span.flatiron-logo {
 
 #contact {
   width: 100%;
+  min-height: 70vh;
 }
 
 #contact-links-container {
