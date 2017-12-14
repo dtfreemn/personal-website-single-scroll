@@ -69,7 +69,7 @@
   grid-template-columns: repeat(5, 1fr)
 }
 
-#nav-bar a {
+#nav-bar a, #nav-bar div {
   text-decoration: none;
   text-align: center;
   font-size: 1.2em;
@@ -78,6 +78,7 @@
   margin-left: 26%;
   margin-right: 26%;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 
 #nav-bar a:hover {

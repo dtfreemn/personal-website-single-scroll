@@ -1,16 +1,35 @@
 import React from 'react';
+import * as Scroll from 'react-scroll'
 
-const NavBar = (props) => {
+let scroller = Scroll.scroller
 
-  return (
-    <div id="nav-bar">
-      <a href="#my-story">About Me</a>
-      <a href="#projects">Some Projects</a>
-      <div></div>
-      <a href="https://docs.google.com/document/d/1cQs01ul_uAYG2zCaAkSyJfFAWQCSQsavPFGwanRUfIE/edit?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>
-      <a href="#contact">Contact</a>
-    </div>
-  )
+class NavBar extends React.Component {
+
+  handleScroll = (e) => {
+    switch (e.target.id) {
+      case 'about-link':
+        scroller.scrollTo('my-story', {duration: 1500, smooth: true});
+        break;
+      case 'project-link':
+        scroller.scrollTo('projects', {duration: 2000, smooth: true});
+        break;
+      case 'contact-link':
+        scroller.scrollTo('contact', {duration: 2000, smooth: true});
+        break;
+    }
+  }
+
+  render() {
+    return (
+      <div id="nav-bar" onClick={this.handleScroll}>
+        <div id='about-link'>About Me</div>
+        <div id='project-link'>Some Projects</div>
+        <div></div>
+        <a href="https://docs.google.com/document/d/1cQs01ul_uAYG2zCaAkSyJfFAWQCSQsavPFGwanRUfIE/edit?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>
+        <div id='contact-link'>Contact</div>
+      </div>
+    )
+  }
 }
 
 export default NavBar;

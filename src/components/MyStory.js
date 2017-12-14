@@ -3,7 +3,7 @@ import React from 'react';
 const MyStory = (props) => {
 
   return (
-    <div id='my-story' className='container'>
+    <div id='my-story' name='my-story' className='container'>
       <div id='growing-up'>
         <img src={require('../images/tennessee.gif')} alt=""/>
         <p>I grew up just outside of Nashville, TN and went to college at the University of Memphis.
