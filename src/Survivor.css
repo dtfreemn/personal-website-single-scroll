@@ -1,0 +1,25 @@
+.team-series-row {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.home-game {
+  font-weight: bold;
+}
+
+.win {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+}
