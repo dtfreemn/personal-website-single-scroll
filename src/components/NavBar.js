@@ -16,6 +16,8 @@ class NavBar extends React.Component {
       case 'contact-link':
         scroller.scrollTo('contact', {duration: 2000, smooth: true});
         break;
+      default:
+        break;
     }
   }
 
