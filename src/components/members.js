@@ -40,6 +40,11 @@ export const members = [
         winner: 'Mets',
         loser: 'Marlins',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Yankees',
+        loser: 'Orioles',
+        points: 0
       }
     }
   },
@@ -83,6 +88,11 @@ export const members = [
       'Week 8': {
         winner: 'Astros',
         loser: 'Giants',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Athletics',
+        loser: 'Rays',
         points: 0
       }
     }
@@ -128,6 +138,11 @@ export const members = [
         winner: 'Cardinals',
         loser: 'Royals',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Yankees',
+        loser: 'Orioles',
+        points: 0
       }
     }
   },
@@ -171,6 +186,11 @@ export const members = [
       'Week 8': {
         winner: 'Rockies',
         loser: 'Reds',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Brewers',
+        loser: 'White Sox',
         points: 0
       }
     }
@@ -215,6 +235,11 @@ export const members = [
       'Week 8': {
         winner: 'Nationals',
         loser: 'Padres',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Athletics',
+        loser: 'Rays',
         points: 0
       }
     }
@@ -260,6 +285,11 @@ export const members = [
         winner: '',
         loser: '',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Mariners',
+        loser: 'Rays',
+        points: 0
       }
     }
   },
@@ -303,6 +333,11 @@ export const members = [
       'Week 8': {
         winner: 'Nationals',
         loser: 'Padres',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Indians',
+        loser: 'White Sox',
         points: 0
       }
     }
@@ -347,6 +382,11 @@ export const members = [
       'Week 8': {
         winner: 'Nationals',
         loser: 'Padres',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Brewers',
+        loser: 'White Sox',
         points: 0
       }
     }
@@ -392,6 +432,11 @@ export const members = [
         winner: 'Yankees',
         loser: 'Rangers',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Nationals',
+        loser: 'Orioles',
+        points: 0
       }
     }
   },
@@ -435,6 +480,11 @@ export const members = [
       'Week 8': {
         winner: 'Rockies',
         loser: 'Reds',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Nationals',
+        loser: 'Braves',
         points: 0
       }
     }
@@ -480,6 +530,11 @@ export const members = [
         winner: 'Giants',
         loser: 'Cubs',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Athletics',
+        loser: 'Rays',
+        points: 0
       }
     }
   },
@@ -523,6 +578,11 @@ export const members = [
       'Week 8': {
         winner: 'Astros',
         loser: 'Giants',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Yankees',
+        loser: 'Orioles',
         points: 0
       }
     }
@@ -567,6 +627,11 @@ export const members = [
       'Week 8': {
         winner: 'Astros',
         loser: 'Indians',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Yankees',
+        loser: 'Orioles',
         points: 0
       }
     }
@@ -612,6 +677,11 @@ export const members = [
         winner: 'Phillies',
         loser: 'Blue Jays',
         points: 0
+      },
+      'Week 9': {
+        winner: 'Padres',
+        loser: 'Reds',
+        points: 0
       }
     }
   },
@@ -655,6 +725,11 @@ export const members = [
       'Week 8': {
         winner: 'Cubs',
         loser: 'Giants',
+        points: 1
+      },
+      'Week 9': {
+        winner: 'Athletics',
+        loser: 'Rangers',
         points: 0
       }
     }
