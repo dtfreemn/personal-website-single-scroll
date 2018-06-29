@@ -61,11 +61,6 @@
   grid-gap: 10px;
   object-fit: cover;
   padding: 20px;
-  margin-top: 100px;
-}
-
-.large-top-margin {
-  margin-top: 150px;
 }
 
 .team-box {
@@ -173,11 +168,4 @@ button:focus {
 
 #membersToggle:focus {
   outline: none;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 100%;
 }
