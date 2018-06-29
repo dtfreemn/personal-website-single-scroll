@@ -61,6 +61,11 @@
   grid-gap: 10px;
   object-fit: cover;
   padding: 20px;
+  margin-top: 100px;
+}
+
+.large-top-margin {
+  margin-top: 150px;
 }
 
 .team-box {
@@ -144,4 +149,35 @@ button:active {
 
 button:focus {
   outline:none;
+}
+
+.three-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.five-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+
+#membersToggle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  -webkit-appearance: none;
+  border-radius: 0px;
+  text-decoration: underline;
+  direction: rtl;
+}
+
+#membersToggle:focus {
+  outline: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
