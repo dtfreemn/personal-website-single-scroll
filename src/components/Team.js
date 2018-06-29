@@ -7,6 +7,7 @@ const Team = (props) => {
 
   const renderGames = games => {
     if (typeof games === 'undefined' || !games.length) return
+    info.abbr = info.abbr === 'CHW' ? 'CWS' : info.abbr
 
     let gameComponents = games.map(game => <Game key={game.id} data={game} team={info.abbr}/>)
 
