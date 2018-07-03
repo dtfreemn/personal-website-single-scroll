@@ -67,6 +67,8 @@
   border: 2px solid black;
   padding: 5px;
   background: white;
+  max-height: 370px;
+  overflow: auto;
 }
 
 .loader {
@@ -168,4 +170,9 @@ button:focus {
 
 #membersToggle:focus {
   outline: none;
+}
+
+.scroll {
+  max-height: 200px;
+  overflow: auto;
 }

@@ -75,7 +75,7 @@ class SportsContainer extends Component {
     return (
       <div className="App">
         <header className="App-header three-col-grid sticky">
-        <span>
+        <div>
           <MemberSelect members={members} handleChange={this.handleSelectedMemberChange}/> 
           <span>
             {this.state.selectedMember !== '' 
@@ -86,7 +86,7 @@ class SportsContainer extends Component {
           <div>
             <RemainingTeams teams={this.state.selectedMemberTeams}/>
           </div>
-        </span>
+        </div>
         <span>
           <h1 className="App-title">Soltman's Survivor League</h1>
           <button onClick={this.toggleState}>Show me {this.state.render === 'members' ? 'Games' : 'Survivor League Standings'}</button>

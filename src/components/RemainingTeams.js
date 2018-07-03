@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const RemainingTeams = (props) => {
   return (
-    <span className='five-col-grid scroll'>
+    <span className='five-col-grid'>
     {props.teams}
     </span>
   )
