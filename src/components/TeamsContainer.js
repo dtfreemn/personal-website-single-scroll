@@ -49,11 +49,13 @@ class TeamsContainer extends Component {
 
   setScoresToState(promiseArray) {
     let scores = {};
-    
+
     promiseArray.forEach(scoreboard => {
-      scoreboard.scoreboard.gameScore.forEach(game => {
-        scores[game.game.ID] = {'awayScore': game.awayScore, 'homeScore': game.homeScore};
-      });
+      if (typeof scoreboard.scoreboard !== 'undefined' && typeof scoreboard.scoreboard.gameScore !== 'undefined') {
+        scoreboard.scoreboard.gameScore.forEach(game => {
+          scores[game.game.ID] = {'awayScore': game.awayScore, 'homeScore': game.homeScore};
+        });
+      }
     });
     
     this.setState({scores});

@@ -23,7 +23,7 @@ class MemberSelect extends React.Component {
         <option value="">?Who can I pick</option>
         {this.props.members.map(member => {
           let name = Object.keys(member)[0];
-          return <option value={name}>{name}</option>
+          return <option value={name} key={name}>{name}</option>
         })}
       </select>
     )

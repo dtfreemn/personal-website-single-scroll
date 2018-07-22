@@ -69,6 +69,16 @@ export const members = [
       'Week 14': {
         winner: 'Reds',
         loser: 'White Sox',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Rays',
+        loser: 'Twins',
+        points: 0
+      },
+      'Week 16': {
+        winner: 'Athletics',
+        loser: 'Giants',
         points: 0
       }
     }
@@ -144,6 +154,16 @@ export const members = [
         winner: 'Orioles',
         loser: 'Phillies',
         points: 0
+      },
+      'Week 15': {
+        winner: 'Mets',
+        loser: 'Phillies',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Cubs',
+        loser: 'Cardinals',
+        points: 0
       }
     }
   },
@@ -217,6 +237,16 @@ export const members = [
       'Week 14': {
         winner: 'Twins',
         loser: 'Orioles',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Phillies',
+        loser: 'Mets',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Mariners',
+        loser: 'White Sox',
         points: 0
       }
     }
@@ -291,6 +321,16 @@ export const members = [
       'Week 14': {
         winner: 'Reds',
         loser: 'White Sox',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Twins',
+        loser: 'Royals',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Indians',
+        loser: 'Rangers',
         points: 0
       }
     }
@@ -365,6 +405,16 @@ export const members = [
       'Week 14': {
         winner: 'Cubs',
         loser: 'Tigers',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Brewers',
+        loser: 'Mariners',
+        points: 0
+      },
+      'Week 16': {
+        winner: 'Rays',
+        loser: 'Marlins',
         points: 0
       }
     }
@@ -439,6 +489,16 @@ export const members = [
       'Week 14': {
         winner: 'Phillies',
         loser: 'Orioles',
+        points: 1
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
         points: 0
       }
     }
@@ -513,6 +573,16 @@ export const members = [
       'Week 14': {
         winner: 'Astros',
         loser: 'White Sox',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Rays',
+        loser: 'Twins',
+        points: 0
+      },
+      'Week 16': {
+        winner: 'Blue Jays',
+        loser: 'Orioles',
         points: 0
       }
     }
@@ -587,6 +657,16 @@ export const members = [
       'Week 14': {
         winner: 'Blue Jays',
         loser: 'Mets',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Twins',
+        loser: 'Royals',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Rays',
+        loser: 'Marlins',
         points: 0
       }
     }
@@ -661,6 +741,16 @@ export const members = [
       'Week 14': {
         winner: 'Blue Jays',
         loser: 'Mets',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Phillies',
+        loser: 'Mets',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Cubs',
+        loser: 'Cardinals',
         points: 0
       }
     }
@@ -736,6 +826,16 @@ export const members = [
         winner: '',
         loser: '',
         points: 0
+      },
+      'Week 15': {
+        winner: 'Braves',
+        loser: 'Blue Jays',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Rays',
+        loser: 'Marlins',
+        points: 0
       }
     }
   },
@@ -809,6 +909,16 @@ export const members = [
       'Week 14': {
         winner: 'Cubs',
         loser: 'Tigers',
+        points: 1
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
         points: 0
       }
     }
@@ -883,6 +993,16 @@ export const members = [
       'Week 14': {
         winner: 'Cubs',
         loser: 'Tigers',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Cardinals',
+        loser: 'White Sox',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Phillies',
+        loser: 'Padres',
         points: 0
       }
     }
@@ -957,6 +1077,16 @@ export const members = [
       'Week 14': {
         winner: 'Twins',
         loser: 'Orioles',
+        points: 1
+      },
+      'Week 15': {
+        winner: 'Phillies',
+        loser: 'Mets',
+        points: 1
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
         points: 0
       }
     }
@@ -1032,6 +1162,16 @@ export const members = [
         winner: 'Orioles',
         loser: 'Twins',
         points: 0
+      },
+      'Week 15': {
+        winner: 'Braves',
+        loser: 'Dbacks',
+        points: 0
+      },
+      'Week 16': {
+        winner: 'Cubs',
+        loser: 'Cardinals',
+        points: 0
       }
     }
   },
@@ -1106,6 +1246,16 @@ export const members = [
         winner: 'Rangers',
         loser: 'Astros',
         points: 0
+      },
+      'Week 15': {
+        winner: 'Phillies',
+        loser: 'Mets',
+        points: 1
+      },
+      'Week 16': {
+        winner: 'Rays',
+        loser: 'Marlins',
+        points: 0
       }
     }
   },
@@ -1179,6 +1329,16 @@ export const members = [
       'Week 14': {
         winner: 'Red Sox',
         loser: 'Royals',
+        points: 1
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
         points: 0
       }
     }
