@@ -94,6 +94,12 @@ export const members = [
       'Week 16': {
         winner: 'Athletics',
         loser: 'Giants',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Angels',
+        loser: 'White Sox',
         points: 0,
         sweep: false
       }
@@ -194,6 +200,12 @@ export const members = [
       'Week 16': {
         winner: 'Cubs',
         loser: 'Cardinals',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Rays',
+        loser: 'Orioles',
         points: 0,
         sweep: false
       }
@@ -294,6 +306,12 @@ export const members = [
       'Week 16': {
         winner: 'Mariners',
         loser: 'White Sox',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Dbacks',
+        loser: 'Padres',
         points: 0,
         sweep: false
       }
@@ -394,6 +412,12 @@ export const members = [
       'Week 16': {
         winner: 'Indians',
         loser: 'Rangers',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Red Sox',
+        loser: 'Orioles',
         points: 0,
         sweep: false
       }
@@ -496,6 +520,12 @@ export const members = [
         loser: 'Marlins',
         points: 0,
         sweep: false
+      },
+      'Week 17': {
+        winner: 'Mariners',
+        loser: 'Giants',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -592,6 +622,12 @@ export const members = [
         sweep: false
       },
       'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
         winner: '',
         loser: '',
         points: 0,
@@ -694,6 +730,12 @@ export const members = [
       'Week 16': {
         winner: 'Blue Jays',
         loser: 'Orioles',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Yankees',
+        loser: 'Royals',
         points: 0,
         sweep: false
       }
@@ -796,6 +838,12 @@ export const members = [
         loser: 'Marlins',
         points: 0,
         sweep: false
+      },
+      'Week 17': {
+        winner: 'Red Sox',
+        loser: 'Orioles',
+        points: 0,
+        sweep: true
       }
     }
   },
@@ -894,6 +942,12 @@ export const members = [
       'Week 16': {
         winner: 'Cubs',
         loser: 'Cardinals',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Tigers',
+        loser: 'Royals',
         points: 0,
         sweep: false
       }
@@ -996,6 +1050,12 @@ export const members = [
         loser: 'Marlins',
         points: 0,
         sweep: false
+      },
+      'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1092,6 +1152,12 @@ export const members = [
         sweep: false
       },
       'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
         winner: '',
         loser: '',
         points: 0,
@@ -1194,6 +1260,12 @@ export const members = [
       'Week 16': {
         winner: 'Phillies',
         loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Rays',
+        loser: 'Orioles',
         points: 0,
         sweep: false
       }
@@ -1292,8 +1364,14 @@ export const members = [
         sweep: false
       },
       'Week 16': {
-        winner: '',
-        loser: '',
+        winner: 'Rays',
+        loser: 'Marlins',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Angels',
+        loser: 'White Sox',
         points: 0,
         sweep: false
       }
@@ -1394,6 +1472,12 @@ export const members = [
       'Week 16': {
         winner: 'Cubs',
         loser: 'Cardinals',
+        points: 1,
+        sweep: false
+      },
+      'Week 17': {
+        winner: 'Marlins',
+        loser: 'Nationals',
         points: 0,
         sweep: false
       }
@@ -1496,6 +1580,12 @@ export const members = [
         loser: 'Marlins',
         points: 0,
         sweep: false
+      },
+      'Week 17': {
+        winner: 'Indians',
+        loser: 'Tigers',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1592,6 +1682,12 @@ export const members = [
         sweep: false
       },
       'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
         winner: '',
         loser: '',
         points: 0,
