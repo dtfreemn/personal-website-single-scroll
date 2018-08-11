@@ -1,5 +1,5 @@
 import React from 'react'
-import {members} from './NFLLeagueStandings'
+import {members, allTeams} from './NFLLeagueMembersRef'
 
 const NFLLeagueStandings = props => {
 
@@ -14,8 +14,9 @@ const NFLLeagueStandings = props => {
         }).then(resp => resp.json()).then(data => console.log(data));
     }
 
-    // fetchGames('DET')
-    console.log(props)
+    for (let key in allTeams) {
+        // setTimeout(() => fetchGames(allTeams[key].toLowerCase()), 3000)
+    }
 
     return (
         <div>League</div>

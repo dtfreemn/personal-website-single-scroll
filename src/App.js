@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   toggleState(e) {
-    let component = e.target.className;
+    let component = e.target.className.split(' ')[0];
 
     this.setState({
       render: this.state.render !== 'personal' ? 'personal' : component

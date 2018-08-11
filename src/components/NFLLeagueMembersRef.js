@@ -1,16 +1,4 @@
-const members = {
-    'Tim': {
-        teams: [allTeams.TEN, allTeams.SF, allTeams.HOU, allTeams.KC]
-    },
-    'Ed': {
-        teams: [allTeams.WAS, allTeams.NO, allTeams.DAL, allTeams.PIT]
-    },
-    'Matt': {
-        teams: [allTeams.BAL, allTeams.PHI, allTeams.ATL, allTeams.OAK]
-    }
-}
-
-const allTeams = {
+export const allTeams = {
     NYJ: 'NYJ',
     NYG: 'NYG',
     PHI: 'PHI',
@@ -43,4 +31,16 @@ const allTeams = {
     KC: 'KC',
     OAK: 'OAK',
     LA: 'LA'
+}
+
+export const members = {
+    'Tim': {
+        teams: [allTeams.TEN, allTeams.SF, allTeams.HOU, allTeams.KC]
+    },
+    'Ed': {
+        teams: [allTeams.WAS, allTeams.NO, allTeams.DAL, allTeams.PIT]
+    },
+    'Matt': {
+        teams: [allTeams.BAL, allTeams.PHI, allTeams.ATL, allTeams.OAK]
+    }
 }
