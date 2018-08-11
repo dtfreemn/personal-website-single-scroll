@@ -38,8 +38,8 @@ class App extends Component {
     return (
       <div className='App'>
        {this.determineRenderedComponent()}
-       <button className='baseball' onClick={this.toggleState}>Sports</button>
-       <button className='football' onClick={this.toggleState}>Football</button>
+       <button className='baseball black-btn' onClick={this.toggleState}>Baseball</button>
+       <button className='football black-btn' onClick={this.toggleState}>Football</button>
       </div>
       )
   }

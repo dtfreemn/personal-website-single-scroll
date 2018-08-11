@@ -1,21 +1,23 @@
 import React from 'react'
+import NFLTeamsList from './NFLTeamsList'
+import NFLLeagueStandings from './NFLLeagueStandings'
 
 class FootballContainer extends React.Component {
-
-
     constructor() {
         super()
 
         this.state = {
-            teams: []
+            teams: [],
+            show: 'teams'
         }
 
-        this.fetchTeams = this.fetchTeams.bind(this)
-        this.setTeamsToState = this.setTeamsToState.bind(this)
+        this.fetchTeams = this.fetchTeams.bind(this);
+        this.setTeamsToState = this.setTeamsToState.bind(this);
+        this.toggleState = this.toggleState.bind(this);
     }
 
     componentDidMount() {
-        this.fetchTeams()
+        this.fetchTeams();
     }
 
     fetchTeams() {
@@ -32,12 +34,20 @@ class FootballContainer extends React.Component {
     setTeamsToState(data) {
         this.setState({
             teams: data.map(entry => entry.team)
-        })
+        });
+    }
+
+    toggleState() {
+        this.setState({show: this.state.show === 'teams' ? 'league' : 'teams'});
     }
 
     render() {
+        let component = this.state.show === 'teams' ? <NFLTeamsList teams={this.state.teams}/> : <NFLLeagueStandings teams={this.state.teams}/>
         return (
-            <div>Inside football container</div>
+            <div>
+                <button className='black-btn' onClick={this.toggleState}>Show</button>
+                {component}
+            </div>
         )
     }
 }
