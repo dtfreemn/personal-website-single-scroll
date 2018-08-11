@@ -108,6 +108,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 19': {
+        winner: 'Indians',
+        loser: 'Twins',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -218,6 +224,12 @@ export const members = [
       'Week 18': {
         winner: 'Rangers',
         loser: 'Orioles',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Giants',
+        loser: 'Pirates',
         points: 0,
         sweep: false
       }
@@ -329,6 +341,12 @@ export const members = [
       },
       'Week 18': {
         winner: 'Cubs',
+        loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Brewers',
         loser: 'Padres',
         points: 0,
         sweep: false
@@ -442,6 +460,12 @@ export const members = [
       'Week 18': {
         winner: 'Rangers',
         loser: 'Dbacks',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Mets',
+        loser: 'Reds',
         points: 0,
         sweep: false
       }
@@ -554,6 +578,12 @@ export const members = [
       'Week 18': {
         winner: 'Phillies',
         loser: 'Marlins',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Mets',
+        loser: 'Reds',
         points: 0,
         sweep: false
       }
@@ -668,6 +698,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 19': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -778,6 +814,12 @@ export const members = [
       'Week 18': {
         winner: 'Rangers',
         loser: 'Orioles',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Cardinals',
+        loser: 'Royals',
         points: 0,
         sweep: false
       }
@@ -890,6 +932,12 @@ export const members = [
       'Week 18': {
         winner: 'Dbacks',
         loser: 'Rangers',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Dodgers',
+        loser: 'Athletics',
         points: 0,
         sweep: false
       }
@@ -1002,6 +1050,12 @@ export const members = [
       'Week 18': {
         winner: 'Giants',
         loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Mets',
+        loser: 'Reds',
         points: 0,
         sweep: false
       }
@@ -1116,6 +1170,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 19': {
+        winner: 'Cubs',
+        loser: 'Royals',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1224,6 +1284,12 @@ export const members = [
         sweep: false
       },
       'Week 18': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 19': {
         winner: '',
         loser: '',
         points: 0,
@@ -1338,6 +1404,12 @@ export const members = [
       'Week 18': {
         winner: 'Giants',
         loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Dodgers',
+        loser: 'Athletics',
         points: 0,
         sweep: false
       }
@@ -1450,6 +1522,12 @@ export const members = [
       'Week 18': {
         winner: 'Giants',
         loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Mets',
+        loser: 'Reds',
         points: 0,
         sweep: false
       }
@@ -1562,6 +1640,12 @@ export const members = [
       'Week 18': {
         winner: 'Blue Jays',
         loser: 'Mariners',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Giants',
+        loser: 'Pirates',
         points: 0,
         sweep: false
       }
@@ -1674,6 +1758,12 @@ export const members = [
       'Week 18': {
         winner: 'Giants',
         loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Cardinals',
+        loser: 'Royals',
         points: 0,
         sweep: false
       }
@@ -1786,6 +1876,12 @@ export const members = [
       'Week 18': {
         winner: 'Nationals',
         loser: 'Mets',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Red Sox',
+        loser: 'Orioles',
         points: 0,
         sweep: false
       }
@@ -1900,6 +1996,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 19': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -2010,13 +2112,19 @@ export const members = [
       'Week 18': {
         winner: 'Yankees',
         loser: 'Orioles',
+        points: 1,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Indians',
+        loser: 'Twins',
         points: 0,
         sweep: false
       }
     }
   },
   {
-    "Dave C": {
+    "Brandon P": {
       'Week 1': {
         winner: '',
         loser: '',
@@ -2122,6 +2230,12 @@ export const members = [
       'Week 18': {
         winner: '',
         loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Astros',
+        loser: 'Giants',
         points: 0,
         sweep: false
       }
@@ -2234,6 +2348,12 @@ export const members = [
       'Week 18': {
         winner: '',
         loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 19': {
+        winner: 'Cubs',
+        loser: 'Royals',
         points: 0,
         sweep: false
       }
