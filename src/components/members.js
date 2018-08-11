@@ -100,6 +100,12 @@ export const members = [
       'Week 17': {
         winner: 'Angels',
         loser: 'White Sox',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: '',
+        loser: '',
         points: 0,
         sweep: false
       }
@@ -208,6 +214,12 @@ export const members = [
         loser: 'Orioles',
         points: 0,
         sweep: false
+      },
+      'Week 18': {
+        winner: 'Rangers',
+        loser: 'Orioles',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -311,6 +323,12 @@ export const members = [
       },
       'Week 17': {
         winner: 'Dbacks',
+        loser: 'Padres',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Cubs',
         loser: 'Padres',
         points: 0,
         sweep: false
@@ -418,6 +436,12 @@ export const members = [
       'Week 17': {
         winner: 'Red Sox',
         loser: 'Orioles',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Rangers',
+        loser: 'Dbacks',
         points: 0,
         sweep: false
       }
@@ -524,6 +548,12 @@ export const members = [
       'Week 17': {
         winner: 'Mariners',
         loser: 'Giants',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Phillies',
+        loser: 'Marlins',
         points: 0,
         sweep: false
       }
@@ -632,6 +662,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 18': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -736,6 +772,12 @@ export const members = [
       'Week 17': {
         winner: 'Yankees',
         loser: 'Royals',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Rangers',
+        loser: 'Orioles',
         points: 0,
         sweep: false
       }
@@ -844,6 +886,12 @@ export const members = [
         loser: 'Orioles',
         points: 0,
         sweep: true
+      },
+      'Week 18': {
+        winner: 'Dbacks',
+        loser: 'Rangers',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -948,6 +996,12 @@ export const members = [
       'Week 17': {
         winner: 'Tigers',
         loser: 'Royals',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Giants',
+        loser: 'Padres',
         points: 0,
         sweep: false
       }
@@ -1052,6 +1106,12 @@ export const members = [
         sweep: false
       },
       'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
         winner: '',
         loser: '',
         points: 0,
@@ -1162,6 +1222,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 18': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1268,6 +1334,12 @@ export const members = [
         loser: 'Orioles',
         points: 0,
         sweep: false
+      },
+      'Week 18': {
+        winner: 'Giants',
+        loser: 'Padres',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1372,6 +1444,12 @@ export const members = [
       'Week 17': {
         winner: 'Angels',
         loser: 'White Sox',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Giants',
+        loser: 'Padres',
         points: 0,
         sweep: false
       }
@@ -1478,6 +1556,12 @@ export const members = [
       'Week 17': {
         winner: 'Marlins',
         loser: 'Nationals',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Blue Jays',
+        loser: 'Mariners',
         points: 0,
         sweep: false
       }
@@ -1584,6 +1668,12 @@ export const members = [
       'Week 17': {
         winner: 'Indians',
         loser: 'Tigers',
+        points: 1,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Giants',
+        loser: 'Padres',
         points: 0,
         sweep: false
       }
@@ -1688,6 +1778,460 @@ export const members = [
         sweep: false
       },
       'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Nationals',
+        loser: 'Mets',
+        points: 0,
+        sweep: false
+      }
+    }
+  },
+  {
+    "Antonio P": {
+      'Week 1': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 2': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 3': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 4': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 5': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 6': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 7': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 8': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 9': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 10': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 11': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 12': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 13': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 14': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      }
+    }
+  },
+  {
+    "Elliot C": {
+      'Week 1': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 2': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 3': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 4': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 5': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 6': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 7': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 8': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 9': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 10': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 11': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 12': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 13': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 14': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
+        winner: 'Yankees',
+        loser: 'Orioles',
+        points: 0,
+        sweep: false
+      }
+    }
+  },
+  {
+    "Dave C": {
+      'Week 1': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 2': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 3': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 4': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 5': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 6': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 7': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 8': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 9': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 10': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 11': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 12': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 13': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 14': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      }
+    }
+  },
+  {
+    "Matt L": {
+      'Week 1': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 2': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 3': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 4': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 5': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 6': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 7': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 8': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 9': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 10': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 11': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 12': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 13': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 14': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 15': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 16': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 17': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 18': {
         winner: '',
         loser: '',
         points: 0,
