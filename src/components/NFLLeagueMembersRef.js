@@ -1,6 +1,6 @@
 export const allTeams = {
     NYJ: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'NYJ',
         weeks: [0, 1, 0],
         record: function() {
@@ -8,7 +8,7 @@ export const allTeams = {
         },
     },
     NYG: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'NYG',
         weeks: [1, 1, 0],
         record: function() {
@@ -16,7 +16,7 @@ export const allTeams = {
         },
     },
     PHI: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'PHI',
         weeks: [0, 1, 0],
         record: function() {
@@ -24,7 +24,7 @@ export const allTeams = {
         },
     },
     WAS: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'WAS',
         weeks: [0, 1, 1],
         record: function() {
@@ -32,7 +32,7 @@ export const allTeams = {
         },
     },
     CHI: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'CHI',
         weeks: [1, 1, 1],
         record: function() {
@@ -40,7 +40,7 @@ export const allTeams = {
         },
     },
     DET: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'DET',
         weeks: [0, 1, 0],
         record: function() {
@@ -49,7 +49,7 @@ export const allTeams = {
     },
     GB:
     {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'GB',
         weeks: [0, 1, 0],
         record: function() {
@@ -57,7 +57,7 @@ export const allTeams = {
         },
     },
     MIN: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'MIN',
         weeks: [0, 1, 0],
         record: function() {
@@ -65,7 +65,7 @@ export const allTeams = {
         },
     },
     ATL: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'ATL',
         weeks: [0, 1, 0],
         record: function() {
@@ -73,7 +73,7 @@ export const allTeams = {
         },
     },
     CAR: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'CAR',
         weeks: [0, 1, 0],
         record: function() {
@@ -81,7 +81,7 @@ export const allTeams = {
         },
     },
     NO: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'NO',
         weeks: [1, 1, 0],
         record: function() {
@@ -90,7 +90,7 @@ export const allTeams = {
     },
     TB:
     {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'TB',
         weeks: [0, 0, 0],
         record: function() {
@@ -98,7 +98,7 @@ export const allTeams = {
         },
     },
     ARI: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'ARI',
         weeks: [0, 1, 0],
         record: function() {
@@ -106,7 +106,7 @@ export const allTeams = {
         },
     },
     SF: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'SF',
         weeks: [0, 1, 0],
         record: function() {
@@ -114,7 +114,7 @@ export const allTeams = {
         },
     },
     SEA: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'SEA',
         weeks: [0, 1, 0],
         record: function() {
@@ -122,7 +122,7 @@ export const allTeams = {
         },
     },
     DAL: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'DAL',
         weeks: [0, 1, 1],
         record: function() {
@@ -130,7 +130,7 @@ export const allTeams = {
         },
     },
     LAC: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'LAC',
         weeks: [0, 1, 0],
         record: function() {
@@ -138,7 +138,7 @@ export const allTeams = {
         },
     },
     BUF: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'BUF',
         weeks: [0, 1, 0],
         record: function() {
@@ -146,7 +146,7 @@ export const allTeams = {
         },
     },
     NE: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'NE',
         weeks: [1, 1, 0],
         record: function() {
@@ -154,7 +154,7 @@ export const allTeams = {
         },
     },
     MIA: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'MIA',
         weeks: [0, 1, 0],
         record: function() {
@@ -162,7 +162,7 @@ export const allTeams = {
         },
     },
     CIN: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'CIN',
         weeks: [1, 1, 0],
         record: function() {
@@ -170,7 +170,7 @@ export const allTeams = {
         },
     },
     PIT: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'PIT',
         weeks: [0, 1, 0],
         record: function() {
@@ -178,7 +178,7 @@ export const allTeams = {
         },
     },
     BAL: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'BAL',
         weeks: [0, 1, 0],
         record: function() {
@@ -186,7 +186,7 @@ export const allTeams = {
         },
     },
     CLE: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'CLE',
         weeks: [0, 1, 0],
         record: function() {
@@ -194,7 +194,7 @@ export const allTeams = {
         },
     },
     HOU: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'HOU',
         weeks: [0, 1, 0],
         record: function() {
@@ -202,7 +202,7 @@ export const allTeams = {
         },
     },
     IND: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'IND',
         weeks: [0, 1, 0],
         record: function() {
@@ -210,7 +210,7 @@ export const allTeams = {
         },
     },
     JAX: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'JAX',
         weeks: [0, 1, 0],
         record: function() {
@@ -218,7 +218,7 @@ export const allTeams = {
         },
     },
     TEN: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'TEN',
         weeks: [0, 1, 0],
         record: function() {
@@ -226,7 +226,7 @@ export const allTeams = {
         },
     },
     DEN: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'DEN',
         weeks: [0, 1, 0],
         record: function() {
@@ -234,7 +234,7 @@ export const allTeams = {
         },
     },
     KC: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'KC',
         weeks: [0, 1, 0],
         record: function() {
@@ -242,7 +242,7 @@ export const allTeams = {
         },
     },
     OAK: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'OAK',
         weeks: [0, 1, 0],
         record: function() {
@@ -250,7 +250,7 @@ export const allTeams = {
         },
     },
     LA: {
-        image: '',
+        image: function() { return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`},
         abbr: 'LA',
         weeks: [0, 1, 0],
         record: function() {
@@ -261,15 +261,31 @@ export const allTeams = {
 
 export const members = {
     'Tim': {
-        teams: [allTeams.TEN, allTeams.SF, allTeams.HOU, allTeams.KC]
+        name: 'Tim',
+        teams: [allTeams.TEN, allTeams.SF, allTeams.HOU, allTeams.KC],
+        currentScore: function() {
+            return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
+        },
     },
     'Ed': {
-        teams: [allTeams.WAS, allTeams.NO, allTeams.DAL, allTeams.PIT]
+        name: 'Ed',
+        teams: [allTeams.WAS, allTeams.NO, allTeams.DAL, allTeams.PIT],
+        currentScore: function() {
+            return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
+        },
     },
     'Matt': {
-        teams: [allTeams.BAL, allTeams.PHI, allTeams.ATL, allTeams.OAK]
+        name: 'Matt',
+        teams: [allTeams.BAL, allTeams.PHI, allTeams.ATL, allTeams.OAK],
+        currentScore: function() {
+            return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
+        },
     },
     'Chris': {
-        teams: [allTeams.LA, allTeams.NE, allTeams.DEN, allTeams.JAX]
+        name: 'Chris',
+        teams: [allTeams.LA, allTeams.NE, allTeams.DEN, allTeams.JAX],
+        currentScore: function() {
+            return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
+        },
     }
 }

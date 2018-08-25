@@ -181,3 +181,8 @@ button:focus {
     display: grid;
     grid-template-columns: 1fr 1fr
 }
+
+.nfl-logo {
+    height: 100px;
+    width: 100px;
+}

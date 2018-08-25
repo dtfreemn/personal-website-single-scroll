@@ -9,7 +9,7 @@ class App extends Component {
     super();
 
     this.state = {
-      render: 'football'
+      render: 'personal'
     }
 
     this.determineRenderedComponent = this.determineRenderedComponent.bind(this)
@@ -26,9 +26,9 @@ class App extends Component {
     }
   }
 
-  toggleState() {
+  toggleState(e) {
     this.setState({
-      render: this.state.render === 'baseball' ? 'personal' : 'baseball'
+      render: e.target.id
     }, this.determineRenderedComponent)
   }
 
@@ -36,7 +36,9 @@ class App extends Component {
     return (
       <div className='App'>
        {this.determineRenderedComponent()}
-       <button onClick={this.toggleState}>Sports</button>
+       <button id='baseball' onClick={this.toggleState}>Baseball</button>
+       <button id='football' onClick={this.toggleState}>Football</button>
+       <button id='personal' onClick={this.toggleState}>Personal</button>
       </div>
       )
   }
