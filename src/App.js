@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainApp from './components/MainApp'
 import SportsContainer from './components/SportsContainer'
+import NFLContainer from './components/NFLContainer'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     super();
 
     this.state = {
-      render: 'personal'
+      render: 'football'
     }
 
     this.determineRenderedComponent = this.determineRenderedComponent.bind(this)
@@ -20,6 +21,8 @@ class App extends Component {
       return <MainApp/>
     } else if (this.state.render === 'baseball') {
       return <SportsContainer/>
+    } else if (this.state.render === 'football') {
+        return <NFLContainer/>
     }
   }
 
