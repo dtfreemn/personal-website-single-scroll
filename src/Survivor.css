@@ -176,3 +176,8 @@ button:focus {
   max-height: 200px;
   overflow: auto;
 }
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
