@@ -178,11 +178,23 @@ button:focus {
 }
 
 .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
 
 .nfl-logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.container-toggle {
+  margin-left: 8px;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.lightgrey {
+  background: lightgrey;
 }

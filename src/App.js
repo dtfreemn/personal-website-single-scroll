@@ -22,7 +22,7 @@ class App extends Component {
     } else if (this.state.render === 'baseball') {
       return <SportsContainer/>
     } else if (this.state.render === 'football') {
-        return <NFLContainer/>
+      return <NFLContainer/>
     }
   }
 
@@ -36,9 +36,9 @@ class App extends Component {
     return (
       <div className='App'>
        {this.determineRenderedComponent()}
-       <button id='baseball' onClick={this.toggleState}>Baseball</button>
-       <button id='football' onClick={this.toggleState}>Football</button>
-       <button id='personal' onClick={this.toggleState}>Personal</button>
+       <button className='container-toggle' id='baseball' onClick={this.toggleState}>Baseball</button>
+       <button className='container-toggle' id='football' onClick={this.toggleState}>Football</button>
+       <button className='container-toggle' id='personal' onClick={this.toggleState}>Personal</button>
       </div>
       )
   }
