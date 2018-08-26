@@ -5,10 +5,15 @@ import NFLLeagueMember from './NFLMember';
 const NFLContainer = () => {
   let membersList = members.sort((a, b) => b.currentScore() - a.currentScore())
   let membersComponents = membersList.map((member, i) => <NFLLeagueMember key={member.name} member={member}/>);
-
+  let style = {
+    fontSize: '2em'
+  }
   return (
-    <div className='teams-list-grid'>
-      {membersComponents}
+    <div id='nfl-container'>
+      <div style={style}>LEAGUE ONE</div>
+      <div className='teams-list-grid'>
+        {membersComponents}
+      </div>
     </div>
   )
 }

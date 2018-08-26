@@ -195,6 +195,15 @@ button:focus {
   border-radius: 5px;
 }
 
+div[id$='-card'].no-scroll {
+  overflow: hidden;
+}
+
 .lightgrey {
   background: lightgrey;
+}
+
+#nfl-container {
+  min-height: 100vh;
+  background: #B0E2FF;
 }

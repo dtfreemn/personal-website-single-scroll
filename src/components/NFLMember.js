@@ -20,7 +20,7 @@ const NFLMember = (props) => {
   });
 
   return (
-    <div className='team-box round' style={style}>
+    <div id={`${member.name}-card`} className='team-box round no-scroll' style={style}>
       <span style={style}>{member.name} - {member.currentScore()}</span>
       <div className='grid-2'>
         {teamDivs}
