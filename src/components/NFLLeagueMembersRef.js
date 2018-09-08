@@ -24,7 +24,7 @@ export const allTeams = {
       return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`
     },
     abbr: 'PHI',
-    weeks: [0],
+    weeks: [1],
     record: function() {
       return this.weeks.reduce((acc, val) => acc += val);
     },
@@ -326,56 +326,56 @@ export const allTeams = {
 export const members = [
   {
     name: 'Tim',
-    teams: [allTeams.MIN, allTeams.DAL, allTeams.BAL, allTeams.],
+    teams: [allTeams.MIN, allTeams.DAL, allTeams.BAL, allTeams.TB],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Ed',
-    teams: [allTeams.PHI, allTeams.TEN, allTeams., allTeams.],
+    teams: [allTeams.PHI, allTeams.TEN, allTeams.NYG, allTeams.CHI],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Moe',
-    teams: [allTeams.NE, allTeams.SF, allTeams., allTeams.],
+    teams: [allTeams.NE, allTeams.SF, allTeams.OAK, allTeams.IND],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Matt M.',
-    teams: [allTeams.PIT, allTeams.HOU, allTeams., allTeams.],
+    teams: [allTeams.PIT, allTeams.HOU, allTeams.DEN, allTeams.BUF],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Ben',
-    teams: [allTeams.GB, allTeams.CAR, allTeams., allTeams.],
+    teams: [allTeams.GB, allTeams.CAR, allTeams.CIN, allTeams.CLE],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Alex',
-    teams: [allTeams.NO, allTeams.LAC, allTeams., allTeams.],
+    teams: [allTeams.NO, allTeams.LAC, allTeams.SEA, allTeams.ARI],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Dan',
-    teams: [allTeams.LA, allTeams.JAX, allTeams., allTeams.],
+    teams: [allTeams.LA, allTeams.JAX, allTeams.WAS, allTeams.NYJ],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
   },
   {
     name: 'Matt L.',
-    teams: [allTeams.ATL, allTeams.KC, allTeams., allTeams.],
+    teams: [allTeams.ATL, allTeams.KC, allTeams.DET, allTeams.MIA],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },

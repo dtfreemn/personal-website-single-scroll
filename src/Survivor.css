@@ -205,5 +205,5 @@ div[id$='-card'].no-scroll {
 
 #nfl-container {
   min-height: 100vh;
-  background: #B0E2FF;
+  /*background: #B0E2FF;*/
 }

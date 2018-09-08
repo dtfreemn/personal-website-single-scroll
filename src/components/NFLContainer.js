@@ -10,7 +10,6 @@ const NFLContainer = () => {
   }
   return (
     <div id='nfl-container'>
-      <div style={style}>LEAGUE ONE</div>
       <div className='teams-list-grid'>
         {membersComponents}
       </div>
