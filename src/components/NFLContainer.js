@@ -8,10 +8,17 @@ const NFLContainer = () => {
   let style = {
     fontSize: '2em'
   }
+
+  const renderAndScrollTop = (membersComponents) => {
+    document.documentElement.scrollTop = 0;
+
+    return membersComponents;
+  };
+
   return (
     <div id='nfl-container'>
       <div className='teams-list-grid'>
-        {membersComponents}
+        {renderAndScrollTop(membersComponents)}
       </div>
     </div>
   )
