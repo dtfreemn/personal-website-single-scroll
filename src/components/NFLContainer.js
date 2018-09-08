@@ -17,7 +17,7 @@ const NFLContainer = () => {
 
   return (
     <div id='nfl-container'>
-      <div className='teams-list-grid'>
+      <div className='teams-list-grid-4'>
         {renderAndScrollTop(membersComponents)}
       </div>
     </div>

@@ -63,6 +63,14 @@
   padding: 20px;
 }
 
+.teams-list-grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  object-fit: cover;
+  padding: 20px;
+}
+
 .team-box {
   border: 2px solid black;
   padding: 5px;
