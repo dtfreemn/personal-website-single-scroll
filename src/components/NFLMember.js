@@ -10,7 +10,9 @@ const NFLMember = (props) => {
   let teamDivs = teams.map(team => {
     return (
       <div key={team.abbr}>
-        <img className='nfl-logo' src={team.image()} alt={team.abbr}/>
+        <a href={`http://www.espn.com/nfl/team/_/name/${team.abbr.toLowerCase()}`} target='_blank'>
+          <img className='nfl-logo' src={team.image()} alt={team.abbr}/>
+        </a>
         <div style={style}>
           {team.record()}
         </div>

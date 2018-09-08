@@ -94,6 +94,10 @@
   transform: scale(1.07);
 }
 
+.nfl-logo:hover {
+  transform: scale(1.07);
+}
+
 .select-box {
   margin-top: 10px;
 }

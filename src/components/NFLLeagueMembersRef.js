@@ -29,11 +29,11 @@ export const allTeams = {
       return this.weeks.reduce((acc, val) => acc += val);
     },
   },
-  WAS: {
+  WSH: {
     image: function() {
       return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`
     },
-    abbr: 'WAS',
+    abbr: 'WSH',
     weeks: [0],
     record: function() {
       return this.weeks.reduce((acc, val) => acc += val);
@@ -311,11 +311,11 @@ export const allTeams = {
       return this.weeks.reduce((acc, val) => acc += val);
     },
   },
-  LA: {
+  LAR: {
     image: function() {
       return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`
     },
-    abbr: 'LA',
+    abbr: 'LAR',
     weeks: [0],
     record: function() {
       return this.weeks.reduce((acc, val) => acc += val);
@@ -368,7 +368,7 @@ export const members = [
   },
   {
     name: 'Dan',
-    teams: [allTeams.LA, allTeams.JAX, allTeams.WAS, allTeams.NYJ],
+    teams: [allTeams.LAR, allTeams.JAX, allTeams.WSH, allTeams.NYJ],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },
