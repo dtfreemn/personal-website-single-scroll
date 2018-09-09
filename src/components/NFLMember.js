@@ -8,13 +8,21 @@ const NFLMember = (props) => {
     fontSize: '1.3em'
   };
   let teamDivs = teams.map(team => {
+    if (team.abbr === 'WAS') {
+        team.abbr = 'WSH';
+    }
+
+    if (team.abbr === 'LA') {
+        team.abbr = 'LAR';
+    }
+
     return (
       <div key={team.abbr}>
         <a href={`http://www.espn.com/nfl/team/_/name/${team.abbr.toLowerCase()}`} target='_blank'>
           <img className='nfl-logo' src={team.image()} alt={team.abbr}/>
         </a>
         <div style={style}>
-          {team.record()}
+          {team.record}
         </div>
         <br/>
       </div>
@@ -23,7 +31,7 @@ const NFLMember = (props) => {
 
   return (
     <div id={`${member.name}-card`} className='team-box round no-scroll' style={style}>
-      <span style={style}>{member.name} - {member.currentScore()}</span>
+      <span style={style}>{member.name} - {member.currentScore}</span>
       <div className='grid-2'>
         {teamDivs}
       </div>

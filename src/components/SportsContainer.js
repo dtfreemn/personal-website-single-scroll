@@ -23,7 +23,7 @@ class SportsContainer extends Component {
     this.renderSelectedMembersPicks = this.renderSelectedMembersPicks.bind(this)
     this.handleSelectedMemberChange = this.handleSelectedMemberChange.bind(this)
   }
-  
+
   determineRenderedContainer() {
     if (this.state.render === 'games') {
       return <TeamsContainer/>
@@ -41,33 +41,30 @@ class SportsContainer extends Component {
   renderSelectedMembersPicks(allTeams, members, selectedMember) {
     if (selectedMember && selectedMember !== '') {
       let memberObject = {};
-      
-      members.map(member => {
-        let name = Object.keys(member)[0]
-        return memberObject[name] = member[name]
-      })
-      
-      let picks = memberObject[selectedMember]
-      let teams = {};
-      Object.keys(allTeams).forEach(team => teams[team] = true)
-      let finalTeamsToRender = []
 
-      Object.keys(picks).forEach(week => teams[picks[week].winner] = false)
-      
+      members.map(member => {
+        let name = Object.keys(member)[0];
+        return memberObject[name] = member[name];
+      });
+
+      let picks = memberObject[selectedMember];
+      let teams = {};
+      Object.keys(allTeams).forEach(team => teams[team] = true);
+      Object.keys(picks).forEach(week => teams[picks[week].winner] = false);
+
       let finalTeams = Object.keys(teams)
         .filter(team => teams[team])
-        .map(team => <div className='small'>{team}</div>)
+        .map(team => <div className='small'>{team}</div>);
 
-      // this.setState({selectedMemberTeams: finalTeams})
-      this.setState({selectedMember: selectedMember, selectedMemberTeams: finalTeams})
+      this.setState({selectedMember: selectedMember, selectedMemberTeams: finalTeams});
     }
   }
 
   handleSelectedMemberChange(member) {
     if (member !== '') {
-      this.renderSelectedMembersPicks(allTeams, members, member)
+      this.renderSelectedMembersPicks(allTeams, members, member);
     } else {
-      this.setState({selectedMember: '', selectedMemberTeams: []})
+      this.setState({selectedMember: '', selectedMemberTeams: []});
     }
   }
 
@@ -76,10 +73,10 @@ class SportsContainer extends Component {
       <div className="App">
         <header className="App-header three-col-grid sticky">
         <div>
-          <MemberSelect members={members} handleChange={this.handleSelectedMemberChange}/> 
+          <MemberSelect members={members} handleChange={this.handleSelectedMemberChange}/>
           <span>
-            {this.state.selectedMember !== '' 
-              ? ', you can pick any of the following teams:' 
+            {this.state.selectedMember !== ''
+              ? ', you can pick any of the following teams:'
               : ''
             }
           </span>

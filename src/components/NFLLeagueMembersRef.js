@@ -5,9 +5,6 @@ export const allTeams = {
     },
     abbr: 'NYJ',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   NYG: {
     image: function() {
@@ -15,9 +12,6 @@ export const allTeams = {
     },
     abbr: 'NYG',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   PHI: {
     image: function() {
@@ -25,19 +19,13 @@ export const allTeams = {
     },
     abbr: 'PHI',
     weeks: [1],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
-  WSH: {
+  WAS: {
     image: function() {
       return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`
     },
-    abbr: 'WSH',
+    abbr: 'WAS',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   CHI: {
     image: function() {
@@ -45,9 +33,6 @@ export const allTeams = {
     },
     abbr: 'CHI',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   DET: {
     image: function() {
@@ -55,9 +40,6 @@ export const allTeams = {
     },
     abbr: 'DET',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   GB:
   {
@@ -66,9 +48,6 @@ export const allTeams = {
     },
     abbr: 'GB',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   MIN: {
     image: function() {
@@ -76,9 +55,6 @@ export const allTeams = {
     },
     abbr: 'MIN',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   ATL: {
     image: function() {
@@ -86,9 +62,6 @@ export const allTeams = {
     },
     abbr: 'ATL',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   CAR: {
     image: function() {
@@ -96,9 +69,6 @@ export const allTeams = {
     },
     abbr: 'CAR',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   NO: {
     image: function() {
@@ -106,9 +76,6 @@ export const allTeams = {
     },
     abbr: 'NO',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   TB:
   {
@@ -117,9 +84,6 @@ export const allTeams = {
     },
     abbr: 'TB',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   ARI: {
     image: function() {
@@ -127,9 +91,6 @@ export const allTeams = {
     },
     abbr: 'ARI',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   SF: {
     image: function() {
@@ -137,9 +98,6 @@ export const allTeams = {
     },
     abbr: 'SF',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   SEA: {
     image: function() {
@@ -147,9 +105,6 @@ export const allTeams = {
     },
     abbr: 'SEA',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   DAL: {
     image: function() {
@@ -157,9 +112,6 @@ export const allTeams = {
     },
     abbr: 'DAL',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   LAC: {
     image: function() {
@@ -167,9 +119,6 @@ export const allTeams = {
     },
     abbr: 'LAC',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   BUF: {
     image: function() {
@@ -177,9 +126,6 @@ export const allTeams = {
     },
     abbr: 'BUF',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   NE: {
     image: function() {
@@ -187,9 +133,6 @@ export const allTeams = {
     },
     abbr: 'NE',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   MIA: {
     image: function() {
@@ -197,9 +140,6 @@ export const allTeams = {
     },
     abbr: 'MIA',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   CIN: {
     image: function() {
@@ -207,9 +147,6 @@ export const allTeams = {
     },
     abbr: 'CIN',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   PIT: {
     image: function() {
@@ -217,9 +154,6 @@ export const allTeams = {
     },
     abbr: 'PIT',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   BAL: {
     image: function() {
@@ -227,9 +161,6 @@ export const allTeams = {
     },
     abbr: 'BAL',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   CLE: {
     image: function() {
@@ -237,9 +168,6 @@ export const allTeams = {
     },
     abbr: 'CLE',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   HOU: {
     image: function() {
@@ -247,9 +175,6 @@ export const allTeams = {
     },
     abbr: 'HOU',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   IND: {
     image: function() {
@@ -257,9 +182,6 @@ export const allTeams = {
     },
     abbr: 'IND',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   JAX: {
     image: function() {
@@ -267,9 +189,6 @@ export const allTeams = {
     },
     abbr: 'JAX',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   TEN: {
     image: function() {
@@ -277,9 +196,6 @@ export const allTeams = {
     },
     abbr: 'TEN',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   DEN: {
     image: function() {
@@ -287,9 +203,6 @@ export const allTeams = {
     },
     abbr: 'DEN',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   KC: {
     image: function() {
@@ -297,9 +210,6 @@ export const allTeams = {
     },
     abbr: 'KC',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
   OAK: {
     image: function() {
@@ -307,19 +217,13 @@ export const allTeams = {
     },
     abbr: 'OAK',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
-  LAR: {
+  LA: {
     image: function() {
       return `http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${this.abbr}.png&h=150&w=150`
     },
-    abbr: 'LAR',
+    abbr: 'LA',
     weeks: [0],
-    record: function() {
-      return this.weeks.reduce((acc, val) => acc += val);
-    },
   },
 }
 
@@ -368,7 +272,7 @@ export const members = [
   },
   {
     name: 'Dan',
-    teams: [allTeams.LAR, allTeams.JAX, allTeams.WSH, allTeams.NYJ],
+    teams: [allTeams.LA, allTeams.JAX, allTeams.WAS, allTeams.NYJ],
     currentScore: function() {
       return this.teams.reduce((acc, team) => acc += team.weeks.reduce((acc, val) => acc += val), 0)
     },

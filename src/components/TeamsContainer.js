@@ -6,7 +6,7 @@ import LeagueStandingsContainer from './LeagueStandingsContainer'
 class TeamsContainer extends Component {
   constructor() {
     super();
-    
+
     this.state = {
       games: [],
       scores: {},
@@ -15,7 +15,7 @@ class TeamsContainer extends Component {
       showLeagueStandings: false,
       loading: true
     };
-  
+
     this.handleRender = this.handleRender.bind(this);
     this.fetchSelectedWeekScoresAsPromises = this.fetchSelectedWeekScoresAsPromises.bind(this);
     this.setScoresToState = this.setScoresToState.bind(this);
@@ -57,10 +57,10 @@ class TeamsContainer extends Component {
         });
       }
     });
-    
+
     this.setState({scores});
   }
-  
+
   fetchSelectedWeekScoresAsPromises(startDate, endDate, week) {
     let weekDates = this.getDatesForWeek(startDate, endDate, week);
     let fetchThem = weekDates.map(date => {
@@ -91,7 +91,7 @@ class TeamsContainer extends Component {
     let startDate = this.determineStartOfWeek(day);
     let endDate = this.determineEndOfWeek(day);
     let url = `https://api.mysportsfeeds.com/v1.2/pull/mlb/2018-regular/full_game_schedule.json?date=from-${this.convertDateToQueryString(startDate)}-to-${this.convertDateToQueryString(endDate)}`;
-    
+
     fetch(url, {
       headers: {
         'Authorization': `Basic ZHRmcmVlbW46ZG9ubmllMzE=`
@@ -179,7 +179,7 @@ class TeamsContainer extends Component {
       setTimeout(() => {
         this.setState({loading: false})
       }, 1250)
-      return <div><img className='loader' src={require('../baseball-loader.gif')} /></div>
+      return <div><img className='loader' src={require('../baseball-loader.gif')} alt='loader'/></div>
     }
     if (!this.state.showLeagueStandings) {
       return (
