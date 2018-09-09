@@ -12,7 +12,8 @@ class NFLContainer extends Component {
   }
 
   componentDidMount() {
-    this.renderStandings()
+    document.documentElement.scrollTop = 0;
+    this.renderStandings();
   }
 
   fetchRecords() {
@@ -36,15 +37,11 @@ class NFLContainer extends Component {
 
   makeMemberComponents(records) {
     let membersList = members.sort((a, b) => b.currentScore() - a.currentScore());
-    let membersComponents = membersList.map((member, i) => {
+    return membersList.map((member, i) => {
       member.teams.forEach(team => team.record = records[team.abbr]);
       member.currentScore = member.teams.reduce((acc, team) => acc += team.record, 0);
       return <NFLLeagueMember key={member.name} member={member}/>
     });
-
-    document.documentElement.scrollTop = 0;
-
-    return membersComponents;
   }
 
   makeRecordsMap(teams) {
