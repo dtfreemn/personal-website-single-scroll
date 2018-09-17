@@ -36,12 +36,16 @@ class NFLContainer extends Component {
   }
 
   makeMemberComponents(records) {
-    let membersList = members.sort((a, b) => b.currentScore() - a.currentScore());
-    return membersList.map((member, i) => {
+    let membersList = [...members];
+
+    membersList.forEach(member => {
       member.teams.forEach(team => team.record = records[team.abbr]);
       member.currentScore = member.teams.reduce((acc, team) => acc += team.record, 0);
-      return <NFLLeagueMember key={member.name} member={member}/>
     });
+
+    return membersList
+      .sort((a, b) => b.currentScore - a.currentScore)
+      .map(member => <NFLLeagueMember key={member.name} member={member}/>);
   }
 
   makeRecordsMap(teams) {
