@@ -26,10 +26,15 @@ class TeamsContainer extends Component {
     this.fetchAndSetLeagueStandings = this.fetchAndSetLeagueStandings.bind(this);
     this.determineContainerToRender = this.determineContainerToRender.bind(this);
     this.toggleSeriesAndStandings = this.toggleSeriesAndStandings.bind(this);
+    this.baseApiUrl = this.baseApiUrl.bind(this);
   }
 
   componentDidMount() {
     this.handleRender()
+  }
+
+  baseApiUrl() {
+    return `https://api.mysportsfeeds.com/v1.2/pull/mlb/2019-regular`;
   }
 
   handleRender(day = new Date(), week = this.state.filter) {
@@ -71,7 +76,7 @@ class TeamsContainer extends Component {
   }
 
   fetchScores(dateString) {
-    return fetch(`https://api.mysportsfeeds.com/v1.2/pull/mlb/2018-regular/scoreboard.json?fordate=${dateString}`, {
+    return fetch(`${this.baseApiUrl()}/scoreboard.json?fordate=${dateString}`, {
       headers: {
         'Authorization': `Basic ZHRmcmVlbW46ZG9ubmllMzE=`
       },
@@ -88,9 +93,18 @@ class TeamsContainer extends Component {
     } else if (week === 'next') {
         day = new Date(day.getTime() + (86400000*7));
     }
-    let startDate = this.determineStartOfWeek(day);
-    let endDate = this.determineEndOfWeek(day);
-    let url = `https://api.mysportsfeeds.com/v1.2/pull/mlb/2018-regular/full_game_schedule.json?date=from-${this.convertDateToQueryString(startDate)}-to-${this.convertDateToQueryString(endDate)}`;
+
+    let startDate;
+    let endDate;
+
+    if (new Date() < new Date('2019-03-29')) {
+      startDate = new Date('2019-03-28');
+      endDate = new Date('2019-04-05');
+    } else {
+      startDate = this.determineStartOfWeek(day);
+      endDate = this.determineEndOfWeek(day);
+    }
+    let url = `${this.baseApiUrl()}/full_game_schedule.json?date=from-${this.convertDateToQueryString(startDate)}-to-${this.convertDateToQueryString(endDate)}`;
 
     fetch(url, {
       headers: {
@@ -103,7 +117,7 @@ class TeamsContainer extends Component {
       .then(resp => resp.json())
       .then(gamesObj => {
         let games = gamesObj.fullgameschedule.gameentry
-        this.setState({games});
+        games ? this.setState({games}) : void 0;
       })
   }
 
@@ -162,7 +176,7 @@ class TeamsContainer extends Component {
   }
 
   fetchAndSetLeagueStandings() {
-    return fetch(`https://api.mysportsfeeds.com/v1.2/pull/mlb/2018-regular/overall_team_standings.json?teamstats=W,L,RF,RA`, {
+    return fetch(`${this.baseApiUrl()}/overall_team_standings.json?teamstats=W,L,RF,RA`, {
       headers: {
         'Authorization': `Basic ZHRmcmVlbW46ZG9ubmllMzE=`
       },

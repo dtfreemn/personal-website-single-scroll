@@ -144,6 +144,12 @@ export const members = [
         loser: 'Reds',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -290,6 +296,12 @@ export const members = [
       'Week 24': {
         winner: 'Angels',
         loser: 'Mariners',
+        points: 0,
+        sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
         points: 0,
         sweep: false
       }
@@ -440,6 +452,12 @@ export const members = [
         loser: 'Orioles',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Dodgers',
+        loser: 'Pirates',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -587,6 +605,12 @@ export const members = [
         winner: 'Orioles',
         loser: 'White Sox',
         points: 0,
+        sweep: false
+      },
+      'Week 25': {
+        winner: 'Marlins',
+        loser: 'Reds',
+        points: 1,
         sweep: false
       }
     }
@@ -736,6 +760,12 @@ export const members = [
         loser: 'Pirates',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -880,6 +910,12 @@ export const members = [
         sweep: false
       },
       'Week 24': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 25': {
         winner: '',
         loser: '',
         points: 0,
@@ -1032,6 +1068,12 @@ export const members = [
         loser: 'Orioles',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Tigers',
+        loser: 'Royals',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -1179,6 +1221,12 @@ export const members = [
         winner: '',
         loser: '',
         points: 0,
+        sweep: false
+      },
+      'Week 25': {
+        winner: 'Royals',
+        loser: 'Tigers',
+        points: 1,
         sweep: false
       }
     }
@@ -1328,6 +1376,12 @@ export const members = [
         loser: 'Giants',
         points: 0,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Cardinals',
+        loser: 'Giants',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -1472,6 +1526,12 @@ export const members = [
         sweep: false
       },
       'Week 24': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 25': {
         winner: '',
         loser: '',
         points: 0,
@@ -1624,6 +1684,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -1769,6 +1835,12 @@ export const members = [
       },
       'Week 24': {
         winner: 'Twins',
+        loser: 'Royals',
+        points: 1,
+        sweep: false
+      },
+      'Week 25': {
+        winner: 'Tigers',
         loser: 'Royals',
         points: 1,
         sweep: false
@@ -1920,6 +1992,12 @@ export const members = [
         loser: 'Padres',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Marlins',
+        loser: 'Reds',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -2068,6 +2146,12 @@ export const members = [
         loser: 'Dodgers',
         points: 1,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Indians',
+        loser: 'Red Sox',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -2214,6 +2298,12 @@ export const members = [
       'Week 24': {
         winner: 'Marlins',
         loser: 'Mets',
+        points: 1,
+        sweep: false
+      },
+      'Week 25': {
+        winner: 'Royals',
+        loser: 'Tigers',
         points: 1,
         sweep: false
       }
@@ -2364,6 +2454,12 @@ export const members = [
         loser: '',
         points: 0,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Yankees',
+        loser: 'Orioles',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -2508,6 +2604,12 @@ export const members = [
         sweep: false
       },
       'Week 24': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
+      },
+      'Week 25': {
         winner: '',
         loser: '',
         points: 0,
@@ -2660,6 +2762,12 @@ export const members = [
         loser: 'Giants',
         points: 0,
         sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
+        points: 0,
+        sweep: false
       }
     }
   },
@@ -2808,6 +2916,12 @@ export const members = [
         loser: 'Brewers',
         points: 0,
         sweep: false
+      },
+      'Week 25': {
+        winner: 'Blue Jays',
+        loser: 'Orioles',
+        points: 1,
+        sweep: false
       }
     }
   },
@@ -2954,6 +3068,12 @@ export const members = [
       'Week 24': {
         winner: 'Cubs',
         loser: 'Brewers',
+        points: 0,
+        sweep: false
+      },
+      'Week 25': {
+        winner: '',
+        loser: '',
         points: 0,
         sweep: false
       }

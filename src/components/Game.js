@@ -7,10 +7,10 @@ const Game = props => {
   homeTeam.Name = homeTeam.Name === 'Diamondbacks' ? 'Dbacks' : homeTeam.Name
   awayTeam.Name = awayTeam.Name === 'Diamondbacks' ? 'Dbacks' : awayTeam.Name
 
-  
+
   const determineWLClass = (awayTeam, homeTeam, gameType) => {
-    if (!awayTeam.score || !homeTeam.score) return
-    
+    if (!awayTeam.score || !homeTeam.score) return '';
+
     let homeScore = parseInt(homeTeam.score, 10)
     let awayScore = parseInt(awayTeam.score, 10)
 
@@ -20,7 +20,7 @@ const Game = props => {
       return awayScore > homeScore ? 'win' : 'loss'
     }
   }
-  
+
   const makeDate = date => {
     return <span className='small'>{`${date.split('-').slice(1).join('/')}`}</span>
   }
@@ -41,11 +41,11 @@ const Game = props => {
   }
 
   const renderGame = (awayTeam, homeTeam, team) => {
-    return homeTeam.Abbreviation === team 
+    return homeTeam.Abbreviation === team
       ? renderHomeGame(awayTeam, homeTeam, data)
       : renderAwayGame(awayTeam, homeTeam, data)
   }
-  
+
   return (
     <div>{renderGame(awayTeam, homeTeam, team)}</div>
   )
