@@ -21,11 +21,11 @@ class MembersContainer extends Component {
   }
 
   calculateCurrentScore(member) {
-    let name = Object.keys(member)[0]
-    let weeks = Object.keys(member[name])
-    let weekData = weeks.map(week => member[name][week])
+    let name = Object.keys(member)[0];
+    let weeks = Object.keys(member[name]);
+    let weekData = weeks.map(week => member[name][week]);
 
-    return weekData.reduce((final, week) => final + week.points, 0)
+    return weekData.reduce((final, week) => final + week.points, 0);
   }
 
   render() {
