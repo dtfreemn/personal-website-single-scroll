@@ -9,7 +9,7 @@ class MembersContainer extends Component {
     this.state = {
       members: members,
       leagueData: [],
-    }
+    };
 
     this.renderMembers = this.renderMembers.bind(this);
     this.calculateCurrentScore = this.calculateCurrentScore.bind(this);
@@ -22,7 +22,7 @@ class MembersContainer extends Component {
   renderMembers() {
     return members.map(member => {
       return <Member key={Object.keys(member)[0]} picks={member} score={this.calculateCurrentScore(member)}/>
-    }).sort((a,b) => b.props.score - a.props.score)
+    }).sort((a,b) => b.props.score - a.props.score);
   }
 
   calculateCurrentScore(member) {
