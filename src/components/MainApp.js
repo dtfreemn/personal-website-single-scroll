@@ -36,7 +36,7 @@ const MainApp = props => {
           </h2>
         <Contact />
         </div>
-        <div id='sign-off'>Tim Freeman ©2017</div>
+        <div id='sign-off'>Tim Freeman ©2019</div>
       </div>
       </div>
   )

@@ -184,6 +184,12 @@ button:focus {
   outline: none;
 }
 
+#membersToggle:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 .scroll {
   max-height: 200px;
   overflow: auto;
