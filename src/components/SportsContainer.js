@@ -74,7 +74,7 @@ class SportsContainer extends Component {
         <header className="App-header three-col-grid sticky">
         <div>
           <MemberSelect members={members} handleChange={this.handleSelectedMemberChange}/>
-          <span>
+          <span className>
             {this.state.selectedMember !== ''
               ? ', you can pick any of the following teams:'
               : ''

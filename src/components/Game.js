@@ -28,14 +28,14 @@ const Game = props => {
   const renderHomeGame = (awayTeam, homeTeam, data) => {
     return (
       <div className={`home-game ${determineWLClass(awayTeam, homeTeam, 'home')}`}>
-      {data.date ? makeDate(data.date) : ''} {awayTeam.Name}{awayTeam.score ? ` ${awayTeam.score}` : ''} vs {homeTeam.Name}{homeTeam.score ? ` ${homeTeam.score}` : ''}
+        {data.date ? makeDate(data.date) : ''} {awayTeam.Name}{awayTeam.score ? ` ${awayTeam.score}` : ''} vs {homeTeam.Name}{homeTeam.score ? ` ${homeTeam.score}` : ''}
       </div>)
   }
 
   const renderAwayGame = (awayTeam, homeTeam, data) => {
     return (
       <div className={`away-game ${determineWLClass(awayTeam, homeTeam, 'away')}`}>
-      {data.date ? makeDate(data.date) : ''} {awayTeam.Name}{awayTeam.score ? ` ${awayTeam.score}` : ''} @ {homeTeam.Name}{homeTeam.score ? ` ${homeTeam.score}` : ''}
+        {data.date ? makeDate(data.date) : ''} {awayTeam.Name}{awayTeam.score ? ` ${awayTeam.score}` : ''} @ {homeTeam.Name}{homeTeam.score ? ` ${homeTeam.score}` : ''}
       </div>
     )
   }
