@@ -7,11 +7,31 @@ class MembersContainer extends Component {
     super();
 
     this.state = {
-      members: members
+      members: members,
+      leagueData: [],
     }
 
     this.renderMembers = this.renderMembers.bind(this);
     this.calculateCurrentScore = this.calculateCurrentScore.bind(this);
+  }
+
+  componentDidMount() {
+    let counter = 1;
+
+    const fetchSheetData = counter => {
+      fetch(`https://sheets.googleapis.com/v4/spreadsheets/1xTqb4sFOJEZYw4bmJG4t1xUSKUZ9BdBoeKFRgXRl3ww/values/Form%20Responses%20${counter}?key=AIzaSyBSnIEAR_d_V1fnYGFMdatK-I8Sdm1krqM`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.error) return;
+
+          this.setState({leagueData: [...this.state.leagueData, data.values]}, () => {
+            counter += 1;
+            fetchSheetData(counter);
+          });
+        });
+    };
+
+    // fetchSheetData(counter)
   }
 
   renderMembers() {
