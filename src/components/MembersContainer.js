@@ -7,11 +7,16 @@ class MembersContainer extends Component {
     super();
 
     this.state = {
-      members: members
+      members: members,
+      leagueData: [],
     }
 
     this.renderMembers = this.renderMembers.bind(this);
     this.calculateCurrentScore = this.calculateCurrentScore.bind(this);
+  }
+
+  componentDidMount() {
+
   }
 
   renderMembers() {
